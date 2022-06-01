@@ -31,13 +31,15 @@ h1 {
 #article_2 {
     background-color: #154734;
     color: white;
+    height: 700px;
+    width: 100vw;
 }
-
 
 #second_img {
     height: 50vh;
     width: 281.5px;
-    margin: 10px 15px;
+    padding: 0px 5px 5px;
+    border-radius: 10px;
 }
 
 #first_div_img {
@@ -46,7 +48,6 @@ h1 {
 
 .paragraph {
     font-size: 1em;
-    margin: 0px 15px 5px;
     padding: 10px;
 }
 
@@ -61,4 +62,19 @@ h1 {
 
 #last_paragraph {
     width: 50%;
+}
+
+#destiny_div {
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+
+.destiny_options {
+    background-color: aliceblue;
+    margin: 5px 11.5px 5px;
+    border-radius: 10px;
+}
+
+.destiny_h4 {
+    color: #154734;
 }
